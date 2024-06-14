@@ -1,3 +1,22 @@
+// COMPETITOR //
+
+function Competitor() {
+  var imageURL = [
+    "./assets/scissors.webp",
+    "./assets/rock.webp",
+    ".assets/paper.webp",
+  ];
+  var imageContainer = document.getElementById("botPlayer");
+  var imgElement = document.createElement("img");
+  var randomIndex = Math.floor(Math.random() * imageURL.length);
+  imageContainer.innerHTML = "";
+  imageContainer.appendChild(imgElement);
+}
+
+function launchCompetitor() {
+  Competitor();
+}
+
 // CLICK TO FIGHT //
 
 var papier = document.getElementById("paper");
@@ -22,6 +41,7 @@ papier.addEventListener("click", function () {
   imgElement.src = imageURL;
   imageContainer.innerHTML = "";
   imageContainer.appendChild(imgElement);
+  launchCompetitor();
 });
 
 ciseau.addEventListener("click", function () {
@@ -33,5 +53,3 @@ ciseau.addEventListener("click", function () {
   imageContainer.innerHTML = "";
   imageContainer.appendChild(imgElement);
 });
-
-// COMPETITOR //

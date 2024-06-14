@@ -15,3 +15,9 @@ Je vais essayer de garder ce projet le plus simple possible dans le but d'appren
 _A suivre..._
 
 ![Alt text](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExajcza3QzYmdodnZ4eWdsMnh0bGIwcG54djFoYW93d2d1MWpreDdlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rqe1vL5jewNeqxusEC/giphy.gif)
+
+> ### Chapitre deux (2h apres)
+
+Hormis le fait que j'ai voulu changer un div en css, l'appelant avec un _.nom_ alors que c'etait par l'id ... j'ai compris un peu comment activer le JS.
+
+![Alt text](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnBudGhhdHRncWVtdGdrcTl4bGNqa2NoNDFzNTU1MjBxbmt4dXo3dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MB6VMR44HbuqkQJLjq/giphy.gif)
