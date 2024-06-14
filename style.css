@@ -1,14 +1,67 @@
 body {
-  display: flex;
   background-color: darkgreen;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  position: relative;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
   color: white;
+  font-size: 3rem;
+}
+
+.game {
+  position: relative;
+  display: flex;
+  height: 50rem;
+  width: 90rem;
+  margin: 0 auto;
+  border-radius: 18px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#imgPlayer {
+  position: relative;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  background-color: aliceblue;
+  overflow: hidden;
+}
+
+#botPlayer {
+  position: relative;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  background-color: greenyellow;
+  overflow: hidden;
+}
+
+#imgPlayer img {
+  width: 100%;
+  height: 100%;
+}
+
+#botPlayer img {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  justify-content: center;
+  align-content: end;
+  margin: 0 auto;
+  padding: 5%;
 }
