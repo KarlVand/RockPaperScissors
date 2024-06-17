@@ -1,39 +1,63 @@
 body {
   background-color: darkgreen;
+  background-image: url("./assets/argyle.png");
+  background-repeat: repeat;
   height: 100%;
+  width: 100%;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  overflow: hidden;
 }
 
 h1 {
   color: white;
   font-size: 3rem;
+  justify-self: center;
 }
 
 .game {
   position: relative;
   display: flex;
-  height: 50rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
   width: 90rem;
   margin: 0 auto;
   border-radius: 18px;
-  border: 3px solid rgb(255, 255, 255);
+  border: 5px solid rgb(255, 255, 255);
+  background-color: green;
+}
+
+nav {
+  justify-self: center;
+  align-self: center;
+  margin: 0;
+}
+
+nav button {
+  font-size: 2rem;
+  color: white;
+  margin: -30px 2rem;
+  padding: 2rem;
+  border-radius: 18px;
+  border: 3px solid white;
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: greenyellow;
+  color: green;
 }
 
 #imgPlayer {
   position: relative;
   margin: auto;
+  margin-left: 5rem;
   height: 500px;
   width: 500px;
   background-color: aliceblue;
@@ -43,6 +67,7 @@ h1 {
 #botPlayer {
   position: relative;
   margin: auto;
+  margin-right: 5rem;
   height: 500px;
   width: 500px;
   background-color: greenyellow;
@@ -61,7 +86,7 @@ h1 {
 
 nav {
   justify-content: center;
-  align-content: end;
+  align-content: center;
   margin: 0 auto;
   padding: 5%;
 }
