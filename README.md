@@ -37,3 +37,12 @@ Bref, le console.log me dit que l'ordi joue (_de maniere aleatoire_) mais je ne 
 J'ai pu rearranger le positionnement en css, simplifier un peu le html et ca reste une satisfaction. Rien de responsive pour l'instant mais ca viendra (_peut-etre_).
 
 ![Alt text](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmVia3k5YnBpMzhoZjN3bG1sZ2thMzFyaDBiNW5kZWx0eWtqaXI2eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eeC0eozsJ8HmfMGLat/giphy.gif)
+
+## Enfin une avancée ...
+
+> > ou pas !
+
+j'ai essayé d'appeler les choix aléatoires de l'adversaire [*array*] en appelant directement les urls des images... **CA S'AFFICHE!!!** ca reponds, c'est bien beau mais maintenant je n'arrive plus a leur donner un nom (_pierre, papier, ciseaux_), ce qui me complique drolement la tache pour commencer le systeme d'affichage de score...
+Bref, un petit pas ...
+
+![Alt text](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTNnemZ0M2c2Y3djZTUzZGNjbHlwOXg3N3J5Y2FlaDMydHgxNDF2ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w89ak63KNl0nJl80ig/giphy.gif)

@@ -18,26 +18,30 @@
 
     <div class="game">
       <div id="imgPlayer"></div>
-      <div class="fight"></div>
+      <div class="resultDisplay">
+        <div id="yourResult">Player:</div>
+        <div id="botResult">Machine:</div>
+        <div id="result">boom</div>
+      </div>
       <div id="botPlayer"></div>
     </div>
     <nav>
       <button
-        onclick="playGame('rock')"
+        click="playGame('rock')"
         id="rock"
       >
         ROCK
       </button>
 
       <button
-        onclick="playGame('paper')"
+        click="playGame('paper')"
         id="paper"
       >
         PAPER
       </button>
 
       <button
-        onclick="playGame('scissors')"
+        click="playGame('scissors')"
         id="scissors"
       >
         SCISSORS
