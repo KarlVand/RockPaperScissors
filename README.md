@@ -34,6 +34,6 @@ Ayant mieux compris la base des concepts de JS grace a openClassRoom, j'ai pu en
 
 Bref, le console.log me dit que l'ordi joue (_de maniere aleatoire_) mais je ne le vois toujours pas.
 
-J'ai pu rearranger le positionnement en css, simplifier un peu le html et ca reste une satisfaction. Rien de responsive pour l'instant mais ca viendra (_peut-etre_)
+J'ai pu rearranger le positionnement en css, simplifier un peu le html et ca reste une satisfaction. Rien de responsive pour l'instant mais ca viendra (_peut-etre_).
 
 ![Alt text](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmVia3k5YnBpMzhoZjN3bG1sZ2thMzFyaDBiNW5kZWx0eWtqaXI2eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eeC0eozsJ8HmfMGLat/giphy.gif)

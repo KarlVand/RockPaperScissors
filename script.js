@@ -1,6 +1,12 @@
 // CLICK TO FIGHT //
 
 const choices = ["rock", "paper", "scissors"];
+const imageUrls = [
+  "./assets/rock.webp",
+  "./assets/paper.webp",
+  "./assets/scissors.webp",
+];
+
 const imageContainer = document.getElementById("imgPlayer");
 
 // BUTTONS //
@@ -12,27 +18,21 @@ const pierre = document.getElementById("rock");
 // DISPLAY PLAYER CHOICES //
 
 pierre.addEventListener("click", function () {
-  var imageURL = "./assets/rock.webp";
-  var imgElement = document.createElement("img");
+  let imgElement = document.createElement("img");
   imgElement.src = imageURL;
   imageContainer.innerHTML = "";
   imageContainer.appendChild(imgElement);
 });
 
 papier.addEventListener("click", function () {
-  var imageURL = "./assets/paper.webp";
-  var imgElement = document.createElement("img");
-
+  let imgElement = document.createElement("img");
   imgElement.src = imageURL;
   imageContainer.innerHTML = "";
   imageContainer.appendChild(imgElement);
-  launchCompetitor();
 });
 
-ciseau.addEventListener("click", function () {
-  var imageURL = "./assets/scissors.webp";
-  var imgElement = document.createElement("img");
-
+ciseau.addEventListener("click", function (playGame) {
+  let imgElement = document.createElement("img");
   imgElement.src = imageURL;
   imageContainer.innerHTML = "";
   imageContainer.appendChild(imgElement);
@@ -41,22 +41,19 @@ ciseau.addEventListener("click", function () {
 // VERSUS //
 
 function playGame(playerChoice) {
-  const choices = [
-    { name: "rock", url: "./assets/rock.webp" },
-    { name: "paper", url: "./assets/paper.webp" },
-    { name: "scissors", url: "./assets/scissors.webp" },
-  ];
-  /*const computerChoices = ["rock", "paper", "scissors"];*/
-  const computerChoice = choices[Math.floor(Math.random() * 3)];
+  const choiceIndex = choices[Math.floor(Math.random() * 3)];
+
+  const imageUrl = imageUrls[choiceIndex];
+
+  const computerChoice = {
+    choices: choices[choiceIndex],
+    imageUrl: imageUrl[choiceIndex],
+  };
   const computerDisplay = document.getElementById("botPlayer");
 
-  /* computerChoices.imageUrls = [
-    "./assets/rock.webp",
-    "./assets/paper.webp",
-    "./assets/scissors.webp",
-  ];*/
-  var imgElement = document.createElement("img");
-  imgElement.src = imageURL;
+  const imgElement = document.createElement("img");
+  imgElement.src = imageUrl;
   computerDisplay.innerHTML = "";
   computerDisplay.appendChild(imgElement);
+  console.log(result);
 }
