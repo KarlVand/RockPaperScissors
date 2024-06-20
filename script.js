@@ -1,5 +1,5 @@
 // CLICK TO FIGHT //
-const choices = ["rock", "paper", "scissors"];
+const playerChoice = ["rock", "paper", "scissors"];
 const imageContainer = document.getElementById("imgPlayer");
 
 // BUTTONS //
@@ -71,7 +71,7 @@ function playGame(playerChoice) {
   computerDisplay.appendChild(imgElement);
   console.log(computerChoiceIndex);
 
-  // RESULTS //
+  // RESULTS (code d'un tuto) //
 
   if (playerChoice === computerChoiceIndex) {
     result = "It's a Tie";
@@ -90,7 +90,10 @@ function playGame(playerChoice) {
   result.textContent = result;
 }
 
-/*
+console.log(choices[]);
+
+
+/*  TEST  DE CODE 
 function playerScore(playGame) {
   if (playerChoice == win {
     let i++;
